@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="@dimen/_232dp"
+        android:layout_height="@dimen/_232dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/img_large6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_108dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="@dimen/_250dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cake1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/_71dp"
+        android:layout_height="@dimen/_46dp"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="@dimen/_492dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cake2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_93dp"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="@dimen/_635dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cake3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_122dp"
+        android:layout_marginTop="@dimen/_382dp"
+        android:layout_marginEnd="-25dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cake4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_78dp"
+        android:layout_marginTop="582dp"
+        android:layout_marginEnd="-25dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cake5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_300dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16dp"
+            android:text="@string/list_of_workers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_380dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16dp"
+            android:text="@string/list_of_products"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_460dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16dp"
+            android:text="@string/grocery_store"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_540dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16dp"
+            android:text="@string/about_us"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

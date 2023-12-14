@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    android:orientation="vertical"
+    tools:context=".SignINFragment">
+
+    <ImageView
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_150dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="@dimen/_50dp"
+        android:contentDescription="@string/main_icon"
+        android:src="@drawable/icon_inai" />
+
+    <LinearLayout
+        android:id="@+id/signIn_withGoogle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="@dimen/_82dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            android:contentDescription="@string/google_icon"
+            android:src="@drawable/icon_google" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_16dp"
+            android:text="@string/sign_in_with_google"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/continueWithApple_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            android:contentDescription="@string/apple_icon"
+            android:src="@drawable/icon_apple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_16dp"
+            android:text="@string/continue_with_apple"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/continueWithVk_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            android:contentDescription="@string/vk_icon"
+            android:src="@drawable/icon_vk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_16dp"
+            android:text="@string/continue_with_vk"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+    </LinearLayout>
+
+</LinearLayout>

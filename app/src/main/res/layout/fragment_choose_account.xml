@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    tools:context=".ChooseAccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_16dp"
+        android:background="@drawable/corner_radius"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_44dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="@dimen/_10dp"
+            android:contentDescription="@string/main_icon"
+            android:src="@drawable/icon_inai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_12sp"
+            android:text="@string/choose_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/for_work_with_inai"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_44dp"
+            android:layout_marginTop="@dimen/_14dp">
+
+            <ImageView
+                android:id="@+id/user_photo"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:background="@drawable/circle_img"
+                android:contentDescription="@string/users_photo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10dp"
+                android:text="@string/inai"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sp"
+                app:layout_constraintStart_toEndOf="@id/user_photo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/user_gmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inai_gmail_com"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sp"
+                app:layout_constraintStart_toStartOf="@id/user_name"
+                app:layout_constraintTop_toBottomOf="@id/user_name" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/grey"
+                app:layout_constraintTop_toBottomOf="@id/user_photo" />
+
+            <ImageView
+                android:id="@+id/icon_account"
+                android:layout_width="@dimen/_30dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:contentDescription="@string/account_icon"
+                android:src="@drawable/icon_add_acc"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/user_photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12dp"
+                android:text="@string/add_account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sp"
+                app:layout_constraintBottom_toBottomOf="@id/icon_account"
+                app:layout_constraintStart_toEndOf="@id/icon_account"
+                app:layout_constraintTop_toTopOf="@id/icon_account" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/grey"
+                app:layout_constraintTop_toBottomOf="@id/icon_account" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_44dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:text="@string/info_conf"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sp" />
+
+
+    </LinearLayout>
+</FrameLayout>
